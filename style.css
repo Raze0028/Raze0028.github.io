@@ -277,17 +277,20 @@ body {
 
 #nav-links {
   display: flex;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   font-weight: 600;
-  font-size: 0.875rem;
+  font-size: 1rem;
   cursor: pointer;
   margin: 0;
+  justify-content: center;
 }
 
 #nav-links li a {
   color: #0ef;
   text-decoration: none;
   transition: color 0.3s ease;
+  white-space: nowrap;
 }
 
 #nav-links li a.active,
